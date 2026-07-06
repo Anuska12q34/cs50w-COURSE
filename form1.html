@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice Form</title>
+</head>
+<body>
+
+    <div>
+        <h2>Student Registration</h2>
+
+        <form>
+            <!-- value = default text already inside the box -->
+            <input type="text" value="Enter your name here">
+            <br><br>
+
+            <!-- datalist = suggestions while typing, but you can type your own too -->
+            <input list="fruits" placeholder="Type your favorite fruit">
+            <datalist id="fruits">
+                <option value="Apple">
+                <option value="Banana">
+                <option value="Mango">
+            </datalist>
+            <br><br>
+
+            <!-- value here = hidden data sent when this radio is picked -->
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+
+            <!-- value here = text shown on the button -->
+            <input type="submit" value="Register Now">
+        </form>
+    </div>
+
+</body>
+</html>
