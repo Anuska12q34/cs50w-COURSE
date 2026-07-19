@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors Practise</title>
+    </head>
+    <body>
+        <h1>CSS SELECTORS PRACTISE</h1>
+        <!--Section 1: Multiple Element Selector(a,b)-->
+        <section class="sec1">
+            <h2>Section 1</h2>
+            <h3>Heading for multiple selector</h2>
+            <p> Paragraph for multiple selectors</p>  
+        </section>
+        <hr>
+        <!--Section 2: Descendant Selector(a,b)-->
+        <section class="sec2">
+             <h2>Section 2</h2>
+        <p>Direct span here: <span>level one span</span></p>
+        <div>
+            <p>Nested span here: <span>level two span, still inside section</span></p>
+        </div>
+    </section>
+        </section>
+        <!--Section : Child Selector(a,b)-->
+        <section class="sec3">
+           <h2>Section 3</h2>
+        <span>This span is a direct child of section</span>
+        <div>
+            <span>This span is nested inside a div, not a direct child</span>
+        </div>
+    </section> 
+        </section>
+         <!--Section : Adjacent sibling Selector(a,b)-->
+        <section class="sec4">
+            <h2>Section 4</h2>
+            <h3>Heading immediately before a paragraph</h3>
+            <p>This paragraph is immediately after the heading.</p>
+            <p>This paragraph is NOT immediately after the heading.</p>
+        </section>
+        <!-- SECTION 5: Attribute Selector ([a=b]) -->
+    <section class="sec5">
+        <h2>Section 5</h2>
+        <label>Text input: <input type="text" placeholder="text type"></label><br><br>
+        <label>Checkbox input: <input type="checkbox"></label>
+    </section>
+
+    </body>
+</html>
